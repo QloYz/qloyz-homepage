@@ -12,3 +12,56 @@ import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
+
+const Work = () => (
+  <Layout title="PostScript Interpreter">
+    <Container>
+      <Title>
+        PostScript Interpreter <Badge>2024</Badge>
+      </Title>
+      <P>
+        A Haskell-based interpreter for a subset of the PostScript language, designed to
+        parse and execute stack-based commands for arithmetic, user-defined procedures, and
+        2D vector graphics rendering. Programs are evaluated in a postfix notation environment,
+        producing visual output using the Cairo graphics library.
+      </P>
+
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>Key Features</Center>
+      </Heading>
+      <UnorderedList my={4}>
+        <ListItem>
+          <strong>Stack-Based Execution:</strong> Implements a postfix evaluation model for arithmetic
+          operations and function calls.
+        </ListItem>
+        <ListItem>
+          <strong>User-Defined Procedures:</strong> Allows creation and invocation of reusable command blocks.
+        </ListItem>
+        <ListItem>
+          <strong>2D Graphics Rendering:</strong> Uses Cairo to generate scalable vector graphics based on
+          interpreted PostScript instructions.
+        </ListItem>
+      </UnorderedList>
+
+      <List ml={4} my={4}>
+        <ListItem>
+          <Meta>Stack</Meta>
+          <span>Haskell, Cairo Graphics, Postscript</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Source</Meta>
+          <Link href="https://github.com/qloyz/postscript-interpreter">
+            Github <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+      </List>
+
+      <Center my={6}>
+        <WorkImage src="/images/works/pscrip_fc.webp" alt="PostScript Interpreter Thumbnail" />
+      </Center>
+      <Center my={6}>
+        <WorkImage src="/images/works/out.webp" alt="PostScript Interpreter Thumbnail" />
+      </Center>
+    </Container>
+  </Layout>
+)

@@ -17,8 +17,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 
 const Home = () => (
@@ -74,13 +72,9 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Henry Grant is a Computer Science graduate from the University of Iowa 
-          with a strong foundation in programming, data structures, networks, and 
-          system-level development. He has gained hands-on experience through both 
-          academic and personal projects, including building interpreters in Haskell, 
-          implementing algorithms in C, and working on Linux-based systems using process 
-          management and threading. Henry enjoys exploring creative side projects such 
-          as developing websites, visualization tools, and interactive applications that 
-          combine technical depth with thoughtful design. Curious, motivated, and adaptable, 
+          with a strong foundation in Python, JavaScript, HTML & CSS, and C. Henry enjoys exploring creative 
+          side projects such as developing websites, visualization tools, and interactive applications 
+          that combine technical depth with thoughtful design. Curious, motivated, and adaptable, 
           he is eager to apply his skills to real-world challenges while continuing to learn 
           and grow as a developer. Outside of technology he enjoys music, fitness, & sports
           {' '}
