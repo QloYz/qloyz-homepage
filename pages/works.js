@@ -32,7 +32,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="interpreter" thumbnail={pscript} title="interpreter">
+          <WorkGridItem id="interpreter" thumbnail={pscript} title="Postscript Interpreter">
             Haskell-based PostScript interpereter for 2D vector graphics rendering with Cairo. 
           </WorkGridItem>
         </Section>
