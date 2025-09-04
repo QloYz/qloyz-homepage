@@ -18,7 +18,7 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Henry's homepage" />
         <meta name="author" content="Henry Grant" />
         <meta name="author" content="QloYz" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="apple-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Henry Grant" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -27,7 +27,7 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Henry Grant" />
         <meta name="og:title" content="Henry Grant" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        <meta property="og:image" content="https://qloyz-homepage.vercel.app/card.png" />
         <title>Henry Grant - Homepage</title>
       </Head>
 
