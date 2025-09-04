@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import pscript from '../public/images/works/psthumbnail.png'
-
+import sortingt from '..public/images/works/sortingthumb.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -15,9 +15,9 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="Sorting" title="Sorting Visualizer" thumbnail={sortingt}>
+            Interactive sorting algorithm visualizer utilizing JavaScript for logic 
+            and HTML/CSS for frontend.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
