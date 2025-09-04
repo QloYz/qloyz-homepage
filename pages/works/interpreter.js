@@ -57,10 +57,7 @@ const Work = () => (
       </List>
 
       <Center my={6}>
-        <WorkImage src="/images/works/pscrip_fc.webp" alt="PostScript Interpreter Thumbnail" />
-      </Center>
-      <Center my={6}>
-        <WorkImage src="/images/works/out.webp" alt="PostScript Interpreter Thumbnail" />
+        <WorkImage src="/images/works/sortingimg" alt="Sorting Visualizer Thumbnail" />
       </Center>
     </Container>
   </Layout>
