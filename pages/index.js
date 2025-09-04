@@ -54,12 +54,6 @@ const Home = () => (
             borderRadius="full"
             overflow="hidden"
           >
-            <Image
-              src="/images/henryg.jpg"
-              alt="Profile image"
-              width="100"
-              height="100"
-            />
           </Box>
         </Box>
       </Box>
