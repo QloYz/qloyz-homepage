@@ -69,12 +69,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Henry Grant is a Computer Science graduate from the University of Iowa 
-          with a strong foundation in Python, JavaScript, HTML & CSS, and C. Henry enjoys exploring creative 
+          I am a Computer Science graduate from the University of Iowa 
+          with a strong foundation in Python, JavaScript, HTML & CSS, and C. I enjoy exploring creative 
           side projects such as developing websites, visualization tools, and interactive applications 
           that combine technical depth with thoughtful design. Curious, motivated, and adaptable, 
-          he is eager to apply his skills to real-world challenges while continuing to learn 
-          and grow as a developer. Outside of technology he enjoys music, fitness, & sports
+          I am eager to apply my skills to real-world challenges while continuing to learn 
+          and grow as a developer.
           {' '}
         </Paragraph>
         <Box align="center" my={4}>
