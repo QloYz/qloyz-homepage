@@ -115,7 +115,7 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <MenuItem as={MenuLink} href="/resume.pdf">
                   Resume
                 </MenuItem>
                 <MenuItem
