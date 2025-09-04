@@ -4,19 +4,17 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 
 const Home = () => (
@@ -38,7 +36,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Henry Grant
           </Heading>
-          <p>Software Developer ( Web, AI/ML, Data)</p>
+          <p>Freelance Developer (Learning: Web, AI/ML, Data)</p>
         </Box>
         <Box
           flexShrink={0}

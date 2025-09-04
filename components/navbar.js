@@ -118,9 +118,6 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/resume.pdf">
                   Resume
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
-                </MenuItem>
                 <MenuItem
                   as={Link}
                   href="https://github.com/QloYz/qloyz-homepage-main"
