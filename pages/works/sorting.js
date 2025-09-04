@@ -23,7 +23,7 @@ const Work = () => (
         Web application that visually demonstrates how different sorting algorithms, 
         including Bubble Sort, Insertion Sort, and Quick Sort, operate in real time. 
         Users can input custom arrays and watch step-by-step animations that illustrate 
-        the algorithm's behavior, making complex sorting concepts easy to understand.
+        algorithm behavior, making complex sorting concepts easy to understand.
       </P>
 
       <Heading as="h4" fontSize={16} my={6}>
