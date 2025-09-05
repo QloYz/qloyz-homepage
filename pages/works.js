@@ -8,6 +8,7 @@ import sortingt from '../public/images/works/sortingthumb.png'
 import pythumbnail from "../public/images/works/pwthumbnail.png"
 import chthn from '../public/images/works/chthumb.png'
 import gitTh from '../public/images/works/gitThumb.png'
+import chessTh from '../public/images/works/chessThumbnail.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -32,6 +33,11 @@ const Works = () => (
         <Section>
           <WorkGridItem id= "repoexplorer" title="Repo Explorer" thumbnail={gitTh}>
             A web application for browsing and exploring GitHub repositories with ease.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="chessAI" title="Chess AI" thumbnail={chessTh}>
+            A terminal-based chess game in Python with an AI opponent that makes greedy moves. 
           </WorkGridItem>
         </Section>
       </SimpleGrid>
