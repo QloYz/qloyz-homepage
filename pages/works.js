@@ -22,7 +22,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id= "passwordchecker" title="Password Strength Checker" thumbnakil={pythumbnail}>
+          <WorkGridItem id= "passwordchecker" title="Password Strength Checker" thumbnail={pythumbnail}>
             A Python-based password checker that evaluates strength, detects breaches via HaveIBeenPwned API, 
             checks against common passwords, and provides suggestions for stronger credentials.
           </WorkGridItem>

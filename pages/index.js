@@ -37,24 +37,6 @@ const Home = () => (
           </Heading>
           <p>Freelance Developer (Learning: Web, AI/ML, Data)</p>
         </Box>
-        <Box
-          flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}
-          textAlign="center"
-        >
-          <Box
-            borderColor="whiteAlpha.800"
-            borderWidth={2}
-            borderStyle="solid"
-            w="100px"
-            h="100px"
-            display="inline-block"
-            borderRadius="full"
-            overflow="hidden"
-          >
-          </Box>
-        </Box>
       </Box>
 
       <Section delay={0.1}>
