@@ -17,12 +17,12 @@ const Work = () => (
   <Layout title="Password Strength Checker">
     <Container>
       <Title>
-        Visualizer for Sorting Algorithms <Badge>2025</Badge>
+        Password Strength Checker <Badge>2025</Badge>
       </Title>
       <P>
         A Python password checker that assesses strength, flags compromised or 
         common passwords, and generates secure alternatives. The tool integrates 
-        with the HaveIBeenPwned API and emphasizes clean, modular code and security 
+        with the HIBP API and emphasizes clean, modular code along with security 
         best practices.
       </P>
 
@@ -47,7 +47,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Python, HIBP API Integration</span>
+          <span>Python, API Integration</span>
         </ListItem>
         <ListItem>
           <Meta>Source</Meta>
