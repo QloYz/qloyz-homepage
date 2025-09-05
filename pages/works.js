@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import pscript from '../public/images/works/psthumbnail.png'
 import sortingt from '../public/images/works/sortingthumb.png'
+import pythumbnail from "../public/images/works/pythumbnail.png"
 
 const Works = () => (
   <Layout title="Works">
@@ -18,6 +19,12 @@ const Works = () => (
           <WorkGridItem id="sorting" title="Sorting Visualizer" thumbnail={sortingt}>
             Interactive sorting algorithm visualizer utilizing JavaScript for logic 
             and HTML/CSS for frontend.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id= "passwordchecker" title="Password Strength Checker" thumbnakil={pythumbnail}>
+            A Python-based password checker that evaluates strength, detects breaches via HaveIBeenPwned API, 
+            checks against common passwords, and provides suggestions for stronger credentials.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
