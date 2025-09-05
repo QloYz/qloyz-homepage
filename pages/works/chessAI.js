@@ -57,12 +57,13 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
-    <Center my={6}>
-        <WorkImage src="/images/works/chessEx1.png" alt="Chess AI Thumbnail" />
-    </Center>
-    <Center my={6}>
-        <WorkImage src="/images/works/chessEx2.png" alt="Chess AI Thumbnail" />
-    </Center>
+
+      <Center my={6}>
+        <WorkImage src="/images/works/chessEx1.png" alt="Chess AI Example 1" />
+      </Center>
+      <Center my={6}>
+        <WorkImage src="/images/works/chessEx2.png" alt="Chess AI Example 2" />
+      </Center>
     </Container>
   </Layout>
 )
