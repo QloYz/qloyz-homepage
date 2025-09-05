@@ -58,7 +58,10 @@ const Work = () => (
       </List>
 
       <Center my={6}>
-        <WorkImage src="/images/works/sortingimg.png" alt="Sorting Visualizer Thumbnail" />
+        <WorkImage src="/images/works/pyexample1.png" alt="Password Checker Thumbnail" />
+      </Center>
+      <Center my={6}>
+        <WorkImage src="/images/works/pyexample2.png" alt="Password Checker Thumbnail" />
       </Center>
     </Container>
   </Layout>
