@@ -58,10 +58,10 @@ const Work = () => (
         </ListItem>
       </List>
     <Center my={6}>
-        <WorkImage src="/images/works/pscrip_fc.webp" alt="PostScript Interpreter Thumbnail" />
+        <WorkImage src="/images/works/chessEx1.png" alt="Chess AI Thumbnail" />
     </Center>
     <Center my={6}>
-        <WorkImage src="/images/works/pscrip_fc.webp" alt="PostScript Interpreter Thumbnail" />
+        <WorkImage src="/images/works/chessEx2.png" alt="Chess AI Thumbnail" />
     </Center>
     </Container>
   </Layout>
