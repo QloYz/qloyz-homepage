@@ -5,7 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import pscript from '../public/images/works/psthumbnail.png'
 import sortingt from '../public/images/works/sortingthumb.png'
-import pythumbnail from "../public/images/works/pythumbnail.png"
+import pythumbnail from "../public/images/works/pwthumbnail.png"
 
 const Works = () => (
   <Layout title="Works">
