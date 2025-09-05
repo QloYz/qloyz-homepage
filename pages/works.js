@@ -6,7 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import pscript from '../public/images/works/psthumbnail.png'
 import sortingt from '../public/images/works/sortingthumb.png'
 import pythumbnail from "../public/images/works/pwthumbnail.png"
-
+import chthn from '../public/images/works/chthumbnail.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -41,6 +41,11 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem id="interpreter" thumbnail={pscript} title="Postscript Interpreter">
             Haskell-based PostScript interpereter for 2D vector graphics rendering with Cairo. 
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="channels" thumbnail={chthn} title="WARP Channel Analysis">
+            Developed Java classes to analyze and visualize channel allocation for a distributed WARP program 
           </WorkGridItem>
         </Section>
       </SimpleGrid>
