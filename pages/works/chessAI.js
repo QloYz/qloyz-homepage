@@ -17,7 +17,7 @@ const Work = () => (
   <Layout title="Chess AI">
     <Container>
       <Title>
-        Chess AI Bot<Badge>2023</Badge>
+        Chess AI Bot <Badge>2023</Badge>
       </Title>
       <P>
         ChessAI is a terminal-based chess game in Python where players face off against an 
