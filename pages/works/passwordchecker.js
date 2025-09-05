@@ -14,7 +14,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Sorting Visualizer">
+  <Layout title="Password Strength Checker">
     <Container>
       <Title>
         Visualizer for Sorting Algorithms <Badge>2025</Badge>
