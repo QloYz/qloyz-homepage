@@ -7,6 +7,7 @@ import pscript from '../public/images/works/psthumbnail.png'
 import sortingt from '../public/images/works/sortingthumb.png'
 import pythumbnail from "../public/images/works/pwthumbnail.png"
 import chthn from '../public/images/works/chthumb.png'
+import gitTh from '../public/images/works/gitthumb.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -26,6 +27,11 @@ const Works = () => (
           <WorkGridItem id= "passwordchecker" title="Password Checker" thumbnail={pythumbnail}>
             A Python-based password checker that evaluates password strength 
             while utilizing HIBP API to detect breaches.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id= "repoexplorer" title="Repo Explorer" thumbnail={gitTh}>
+            A web application for browsing and exploring GitHub repositories with ease.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
