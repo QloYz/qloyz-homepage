@@ -80,9 +80,6 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/resume.pdf" path={path}>
-            Resume
-          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/QloYz/qloyz-homepage-main"
