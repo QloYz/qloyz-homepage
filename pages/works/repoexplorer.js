@@ -40,7 +40,7 @@ const Work = () => (
           Filter by stars, forks, & last updated.
         </ListItem>
         <ListItem>
-          <strong>GitHub Links:</strong> Utilizes GitHub's REST API to fetch repository data and
+          <strong>GitHub Links:</strong> Utilizes GitHub REST API to fetch repository data and
           provides direct links to the original GitHub pages for easy access.
         </ListItem>
       </UnorderedList>
