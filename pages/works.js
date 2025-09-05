@@ -7,7 +7,7 @@ import pscript from '../public/images/works/psthumbnail.png'
 import sortingt from '../public/images/works/sortingthumb.png'
 import pythumbnail from "../public/images/works/pwthumbnail.png"
 import chthn from '../public/images/works/chthumb.png'
-import gitTh from '../public/images/works/gitthumb.png'
+import gitTh from '../public/images/works/gitThumb.png'
 
 const Works = () => (
   <Layout title="Works">
