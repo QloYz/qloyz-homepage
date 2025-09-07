@@ -11,7 +11,6 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
@@ -35,7 +34,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Henry Grant
           </Heading>
-          <p>Freelance Developer (Learning: Web, AI/ML, Data)</p>
+          <p>Freelance Developer (Currently Learning: AI/ML, Cloud)</p>
         </Box>
       </Box>
 
@@ -63,24 +62,6 @@ const Home = () => (
             My portfolio
           </Button>
         </Box>
-      </Section>
-
-      <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>2002</BioYear>
-          Born in Syracuse, New York.
-        </BioSection>
-        <BioSection>
-          <BioYear>2025</BioYear>
-          Started freelance AI Training
-        </BioSection>
-        <BioSection>
-          <BioYear>2025</BioYear>
-          Graduated from University of Iowa with a B.A in Computer Science
-        </BioSection>
       </Section>
 
       <Section delay={0.3}>
