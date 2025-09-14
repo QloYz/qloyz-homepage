@@ -17,7 +17,7 @@ const Work = () => (
   <Layout title="Chess AI">
     <Container>
       <Title>
-        Chess AI Bot <Badge>2023</Badge>
+        Etch-A-Sketch <Badge>2025</Badge>
       </Title>
       <P>
         This Etch-A-Sketch project is a dynamic, interactive web-based drawing application that allows users to create 
