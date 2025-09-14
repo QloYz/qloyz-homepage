@@ -9,7 +9,7 @@ import pythumbnail from "../public/images/works/pwthumbnail.png"
 import chthn from '../public/images/works/chthumb.png'
 import gitTh from '../public/images/works/gitThumb.png'
 import chessTh from '../public/images/works/chessThumbn.jpg'
-import etchTh from '../public/images/works/etchThumb3.png'
+import etchTh from '../public/images/works/etchthumb3.png'
 
 const Works = () => (
   <Layout title="Works">
