@@ -9,6 +9,7 @@ import pythumbnail from "../public/images/works/pwthumbnail.png"
 import chthn from '../public/images/works/chthumb.png'
 import gitTh from '../public/images/works/gitThumb.png'
 import chessTh from '../public/images/works/chessThumbn.jpg'
+import etchTh from '../public/images/works/etchThumb1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -38,6 +39,11 @@ const Works = () => (
         <Section>
           <WorkGridItem id="chessAI" title="Chess AI" thumbnail={chessTh}>
             A terminal-based chess game in Python with an AI opponent that makes greedy moves. 
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="etch" title="Etch-A-Sketch" thumbnail={etchTh}>
+            Browser-based drawing game inspired by the Etch-A-Sketch toy. 
           </WorkGridItem>
         </Section>
       </SimpleGrid>
